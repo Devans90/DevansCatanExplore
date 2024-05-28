@@ -1,7 +1,8 @@
-from catanatron import Player, Color, Action, ActionType
-from catanatron.game import Game
-from catanatron.models.actions import BuildSettlementAction, BuildRoadAction
-from catanatron.models.enums import Resource
+from catanatron_core.catanatron import Player, Color, Action, ActionType
+from catanatron_core.catanatron.game import Game
+from catanatron_core.catanatron.models.actions import BuildSettlementAction, BuildRoadAction
+from catanatron_core.catanatron.models.enums import Resource
+import random
 
 class RandomPlayer(Player):
     def decide(self, game: Game, actions: list[Action]) -> Action:
