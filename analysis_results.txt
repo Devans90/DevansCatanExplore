@@ -1,0 +1,7 @@
+num_games: 2
+total_turns: 1564
+avg_turns_per_game: 782.0
+best_player: RandomPlayer
+win_percentage: Winner
+Color.BLUE    100.0
+Name: proportion, dtype: float64
