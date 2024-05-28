@@ -1,7 +1,10 @@
-num_games: 2
-total_turns: 1564
-avg_turns_per_game: 782.0
-best_player: RandomPlayer
+num_games: 194
+total_turns: 161103
+avg_turns_per_game: 830.4278350515464
+best_player: ResourceHoarderPlayer
 win_percentage: Winner
-Color.BLUE    100.0
+BLUE          51.595745
+WHITE         26.063830
+RED           21.808511
+Color.BLUE     0.531915
 Name: proportion, dtype: float64
